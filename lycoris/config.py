@@ -18,6 +18,8 @@ PRESET = {
         ],
         "text_encoder_target_module": [
             "CLIPAttention",
+            "CLIPSdpaAttention",
+            "CLIPFlashAttention2"
             "CLIPMLP",
             "MT5Block",
             "BertLayer",
@@ -39,6 +41,8 @@ PRESET = {
         ],
         "text_encoder_target_module": [
             "CLIPAttention",
+            "CLIPSdpaAttention",
+            "CLIPFlashAttention2"
             "CLIPMLP",
             "MT5Block",
             "BertLayer",
@@ -56,6 +60,8 @@ PRESET = {
         "unet_target_name": [],
         "text_encoder_target_module": [
             "CLIPAttention",
+            "CLIPSdpaAttention",
+            "CLIPFlashAttention2"
             "CLIPMLP",
             "MT5Block",
             "BertLayer",
@@ -71,6 +77,8 @@ PRESET = {
         "unet_target_name": [],
         "text_encoder_target_module": [
             "CLIPAttention",
+            "CLIPSdpaAttention",
+            "CLIPFlashAttention2"
             "BertAttention",
             "MT5LayerSelfAttention",
         ],
