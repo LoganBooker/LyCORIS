@@ -227,6 +227,8 @@ class LycorisNetworkKohya(LycorisNetwork):
     ]
     TEXT_ENCODER_TARGET_REPLACE_MODULE = [
         "CLIPAttention",
+        "CLIPSdpaAttention",
+        "CLIPFlashAttention2"
         "CLIPMLP",
         "MT5Block",
         "BertLayer",
